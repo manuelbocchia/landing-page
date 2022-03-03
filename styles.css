@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #header { display:flex;
     background-color: #1F2937;
@@ -66,7 +66,15 @@ body {
         border-radius: 20px;
         margin: 10px;
         height: 100px;
-        width: 100px}
+        width: 100px
+    }
+
+.cardTxt {
+    display: inline-block;
+    padding: 5%;
+    margin: 10px;
+
+}
 
 h1 { color: #F9FAF8;
     font-size: 48px;
@@ -110,4 +118,13 @@ a { color: #E5E7EB;
 #quote {color:#1F2937; 
     font-weight: lighter; 
     font-style: italic;
+}
+
+#footer {
+    display:flex;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
 }
